@@ -1,0 +1,24 @@
+{
+  "name": "slp-base",
+  "version": "1.0.0",
+  "description": "HTML CSS Base Components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./node_modules/parcel/bin/cli.js ./src/index.html --out-dir ./dist --open",
+    "build": "node ./node_modules/parcel/bin/cli.js build ./src/index.html --out-dir ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TobiasFranek/slp-base.git"
+  },
+  "author": "Tobias Franek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TobiasFranek/slp-base/issues"
+  },
+  "homepage": "https://github.com/TobiasFranek/slp-base#readme",
+  "dependencies": {
+    "parcel": "^1.12.4"
+  }
+}
