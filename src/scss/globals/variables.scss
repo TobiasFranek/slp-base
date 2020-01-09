@@ -1,0 +1,27 @@
+// import mixins and functions
+@import 'functions';
+@import 'mixins';
+
+/** GLOBAL SETTINGS */
+$font-directory: '../fonts';
+
+/** PRIMARY COLORS **/
+$primary: #3B497E;
+$primary-light: #EBEBFF;
+$secondary: #00175E;
+$font-color: #333;
+
+/** GREYS **/
+$grey-1: #555555; 
+$grey-2: #707070;
+
+/** UTILITY COLORS **/
+$success: #00BA39;
+$error: #D61E1E;
+$red: #D82E2E;
+$facebook: #4267B2;
+$twitter: #1DA1F2;
+
+/** FONTS **/
+$objectivity: 'Objectivity', sans-serif;
+$lato: 'Lato', sans-serif;

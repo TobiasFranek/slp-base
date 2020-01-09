@@ -1,2 +1,13 @@
-@import 'variables';
-@import 'fonts';
+/** VARIABLES **/
+@import 'globals/variables';
+
+/** FONTS **/
+@import 'globals/fonts';
+
+/** BOOTSTRAP **/
+@import '../../node_modules/bootstrap/scss/bootstrap-reboot.scss';
+
+/** GLOBALS **/
+@import 'globals/globals.scss';
+
+/** COMPONENTS **/
