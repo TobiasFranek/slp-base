@@ -140,6 +140,19 @@
     font-style: normal;
 }
 
+
+@font-face {
+    font-family: 'Objectivity';
+    src: url('#{$font-directory}/Objectivity-BoldSlanted.eot');
+    src: url('#{$font-directory}/Objectivity-BoldSlanted.eot?#iefix') format('embedded-opentype'),
+        url('#{$font-directory}/Objectivity-BoldSlanted.woff2') format('woff2'),
+        url('#{$font-directory}/Objectivity-BoldSlanted.woff') format('woff'),
+        url('#{$font-directory}/Objectivity-BoldSlanted.ttf') format('truetype'),
+        url('#{$font-directory}/Objectivity-BoldSlanted.svg#Objectivity-BoldSlanted') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
 @font-face {
     font-family: 'Objectivity';
     src: url('#{$font-directory}/Objectivity-ExtraBoldSlanted.eot');
@@ -212,17 +225,6 @@
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'Objectivity';
-    src: url('#{$font-directory}/Objectivity-BoldSlanted.eot');
-    src: url('#{$font-directory}/Objectivity-BoldSlanted.eot?#iefix') format('embedded-opentype'),
-        url('#{$font-directory}/Objectivity-BoldSlanted.woff2') format('woff2'),
-        url('#{$font-directory}/Objectivity-BoldSlanted.woff') format('woff'),
-        url('#{$font-directory}/Objectivity-BoldSlanted.ttf') format('truetype'),
-        url('#{$font-directory}/Objectivity-BoldSlanted.svg#Objectivity-BoldSlanted') format('svg');
-    font-weight: bold;
-    font-style: normal;
-}
 
 @font-face {
     font-family: 'Objectivity';

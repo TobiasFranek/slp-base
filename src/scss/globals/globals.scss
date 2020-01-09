@@ -1,0 +1,33 @@
+body {
+	font-family: $lato;
+	color: $font-color;
+}
+
+.h1 {
+	font-family: $objectivity;
+	font-weight: bold;
+	font-size: rem(36);
+}
+
+.h2 {
+	font-family: $objectivity;
+	font-weight: bold;
+	font-size: rem(24);
+}
+
+.h3 {
+	font-family: $objectivity;
+	font-weight: bold;
+	font-size: rem(22);
+}
+
+.h4 {
+	font-family: $objectivity;
+	font-weight: bold;
+	font-size: rem(18);
+}
+
+.p {
+	font-weight: 300;
+	font-size: rem(16);
+}
