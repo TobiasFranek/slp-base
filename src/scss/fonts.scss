@@ -1,0 +1,322 @@
+
+/** 
+	LATO
+**/
+
+@font-face {
+    font-family: 'Lato';
+    src: url('#{$font-directory}/Lato-BoldItalic.eot');
+    src: url('#{$font-directory}/Lato-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('#{$font-directory}/Lato-BoldItalic.woff2') format('woff2'),
+        url('#{$font-directory}/Lato-BoldItalic.woff') format('woff'),
+        url('#{$font-directory}/Lato-BoldItalic.ttf') format('truetype'),
+        url('#{$font-directory}/Lato-BoldItalic.svg#Lato-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('#{$font-directory}/Lato-LightItalic.eot');
+    src: url('#{$font-directory}/Lato-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('#{$font-directory}/Lato-LightItalic.woff2') format('woff2'),
+        url('#{$font-directory}/Lato-LightItalic.woff') format('woff'),
+        url('#{$font-directory}/Lato-LightItalic.ttf') format('truetype'),
+        url('#{$font-directory}/Lato-LightItalic.svg#Lato-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('#{$font-directory}/Lato-Black.eot');
+    src: url('#{$font-directory}/Lato-Black.eot?#iefix') format('embedded-opentype'),
+        url('#{$font-directory}/Lato-Black.woff2') format('woff2'),
+        url('#{$font-directory}/Lato-Black.woff') format('woff'),
+        url('#{$font-directory}/Lato-Black.ttf') format('truetype'),
+        url('#{$font-directory}/Lato-Black.svg#Lato-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('#{$font-directory}/Lato-Italic.eot');
+    src: url('#{$font-directory}/Lato-Italic.eot?#iefix') format('embedded-opentype'),
+        url('#{$font-directory}/Lato-Italic.woff2') format('woff2'),
+        url('#{$font-directory}/Lato-Italic.woff') format('woff'),
+        url('#{$font-directory}/Lato-Italic.ttf') format('truetype'),
+        url('#{$font-directory}/Lato-Italic.svg#Lato-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('#{$font-directory}/Lato-Bold.eot');
+    src: url('#{$font-directory}/Lato-Bold.eot?#iefix') format('embedded-opentype'),
+        url('#{$font-directory}/Lato-Bold.woff2') format('woff2'),
+        url('#{$font-directory}/Lato-Bold.woff') format('woff'),
+        url('#{$font-directory}/Lato-Bold.ttf') format('truetype'),
+        url('#{$font-directory}/Lato-Bold.svg#Lato-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato Hairline';
+    src: url('#{$font-directory}/Lato-HairlineItalic.eot');
+    src: url('#{$font-directory}/Lato-HairlineItalic.eot?#iefix') format('embedded-opentype'),
+        url('#{$font-directory}/Lato-HairlineItalic.woff2') format('woff2'),
+        url('#{$font-directory}/Lato-HairlineItalic.woff') format('woff'),
+        url('#{$font-directory}/Lato-HairlineItalic.ttf') format('truetype'),
+        url('#{$font-directory}/Lato-HairlineItalic.svg#Lato-HairlineItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('#{$font-directory}/Lato-Light.eot');
+    src: url('#{$font-directory}/Lato-Light.eot?#iefix') format('embedded-opentype'),
+        url('#{$font-directory}/Lato-Light.woff2') format('woff2'),
+        url('#{$font-directory}/Lato-Light.woff') format('woff'),
+        url('#{$font-directory}/Lato-Light.ttf') format('truetype'),
+        url('#{$font-directory}/Lato-Light.svg#Lato-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato Hairline';
+    src: url('#{$font-directory}/Lato-Hairline.eot');
+    src: url('#{$font-directory}/Lato-Hairline.eot?#iefix') format('embedded-opentype'),
+        url('#{$font-directory}/Lato-Hairline.woff2') format('woff2'),
+        url('#{$font-directory}/Lato-Hairline.woff') format('woff'),
+        url('#{$font-directory}/Lato-Hairline.ttf') format('truetype'),
+        url('#{$font-directory}/Lato-Hairline.svg#Lato-Hairline') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('#{$font-directory}/Lato-Regular.eot');
+    src: url('#{$font-directory}/Lato-Regular.eot?#iefix') format('embedded-opentype'),
+        url('#{$font-directory}/Lato-Regular.woff2') format('woff2'),
+        url('#{$font-directory}/Lato-Regular.woff') format('woff'),
+        url('#{$font-directory}/Lato-Regular.ttf') format('truetype'),
+        url('#{$font-directory}/Lato-Regular.svg#Lato-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('#{$font-directory}/Lato-BlackItalic.eot');
+    src: url('#{$font-directory}/Lato-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('#{$font-directory}/Lato-BlackItalic.woff2') format('woff2'),
+        url('#{$font-directory}/Lato-BlackItalic.woff') format('woff'),
+        url('#{$font-directory}/Lato-BlackItalic.ttf') format('truetype'),
+        url('#{$font-directory}/Lato-BlackItalic.svg#Lato-BlackItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+}
+
+
+/** 
+	OBJECTIVITY
+**/
+
+@font-face {
+    font-family: 'Objectivity';
+    src: url('#{$font-directory}/Objectivity-Medium.eot');
+    src: url('#{$font-directory}/Objectivity-Medium.eot?#iefix') format('embedded-opentype'),
+        url('#{$font-directory}/Objectivity-Medium.woff2') format('woff2'),
+        url('#{$font-directory}/Objectivity-Medium.woff') format('woff'),
+        url('#{$font-directory}/Objectivity-Medium.ttf') format('truetype'),
+        url('#{$font-directory}/Objectivity-Medium.svg#Objectivity-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Objectivity';
+    src: url('#{$font-directory}/Objectivity-ExtraBoldSlanted.eot');
+    src: url('#{$font-directory}/Objectivity-ExtraBoldSlanted.eot?#iefix') format('embedded-opentype'),
+        url('#{$font-directory}/Objectivity-ExtraBoldSlanted.woff2') format('woff2'),
+        url('#{$font-directory}/Objectivity-ExtraBoldSlanted.woff') format('woff'),
+        url('#{$font-directory}/Objectivity-ExtraBoldSlanted.ttf') format('truetype'),
+        url('#{$font-directory}/Objectivity-ExtraBoldSlanted.svg#Objectivity-ExtraBoldSlanted') format('svg');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Objectivity';
+    src: url('#{$font-directory}/Objectivity-BlackSlanted.eot');
+    src: url('#{$font-directory}/Objectivity-BlackSlanted.eot?#iefix') format('embedded-opentype'),
+        url('#{$font-directory}/Objectivity-BlackSlanted.woff2') format('woff2'),
+        url('#{$font-directory}/Objectivity-BlackSlanted.woff') format('woff'),
+        url('#{$font-directory}/Objectivity-BlackSlanted.ttf') format('truetype'),
+        url('#{$font-directory}/Objectivity-BlackSlanted.svg#Objectivity-BlackSlanted') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Objectivity';
+    src: url('#{$font-directory}/Objectivity-RegularSlanted.eot');
+    src: url('#{$font-directory}/Objectivity-RegularSlanted.eot?#iefix') format('embedded-opentype'),
+        url('#{$font-directory}/Objectivity-RegularSlanted.woff2') format('woff2'),
+        url('#{$font-directory}/Objectivity-RegularSlanted.woff') format('woff'),
+        url('#{$font-directory}/Objectivity-RegularSlanted.ttf') format('truetype'),
+        url('#{$font-directory}/Objectivity-RegularSlanted.svg#Objectivity-RegularSlanted') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Objectivity';
+    src: url('#{$font-directory}/Objectivity-LightSlanted.eot');
+    src: url('#{$font-directory}/Objectivity-LightSlanted.eot?#iefix') format('embedded-opentype'),
+        url('#{$font-directory}/Objectivity-LightSlanted.woff2') format('woff2'),
+        url('#{$font-directory}/Objectivity-LightSlanted.woff') format('woff'),
+        url('#{$font-directory}/Objectivity-LightSlanted.ttf') format('truetype'),
+        url('#{$font-directory}/Objectivity-LightSlanted.svg#Objectivity-LightSlanted') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Objectivity';
+    src: url('#{$font-directory}/Objectivity-Regular.eot');
+    src: url('#{$font-directory}/Objectivity-Regular.eot?#iefix') format('embedded-opentype'),
+        url('#{$font-directory}/Objectivity-Regular.woff2') format('woff2'),
+        url('#{$font-directory}/Objectivity-Regular.woff') format('woff'),
+        url('#{$font-directory}/Objectivity-Regular.ttf') format('truetype'),
+        url('#{$font-directory}/Objectivity-Regular.svg#Objectivity-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Objectivity';
+    src: url('#{$font-directory}/Objectivity-Bold.eot');
+    src: url('#{$font-directory}/Objectivity-Bold.eot?#iefix') format('embedded-opentype'),
+        url('#{$font-directory}/Objectivity-Bold.woff2') format('woff2'),
+        url('#{$font-directory}/Objectivity-Bold.woff') format('woff'),
+        url('#{$font-directory}/Objectivity-Bold.ttf') format('truetype'),
+        url('#{$font-directory}/Objectivity-Bold.svg#Objectivity-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Objectivity';
+    src: url('#{$font-directory}/Objectivity-BoldSlanted.eot');
+    src: url('#{$font-directory}/Objectivity-BoldSlanted.eot?#iefix') format('embedded-opentype'),
+        url('#{$font-directory}/Objectivity-BoldSlanted.woff2') format('woff2'),
+        url('#{$font-directory}/Objectivity-BoldSlanted.woff') format('woff'),
+        url('#{$font-directory}/Objectivity-BoldSlanted.ttf') format('truetype'),
+        url('#{$font-directory}/Objectivity-BoldSlanted.svg#Objectivity-BoldSlanted') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Objectivity';
+    src: url('#{$font-directory}/Objectivity-Light.eot');
+    src: url('#{$font-directory}/Objectivity-Light.eot?#iefix') format('embedded-opentype'),
+        url('#{$font-directory}/Objectivity-Light.woff2') format('woff2'),
+        url('#{$font-directory}/Objectivity-Light.woff') format('woff'),
+        url('#{$font-directory}/Objectivity-Light.ttf') format('truetype'),
+        url('#{$font-directory}/Objectivity-Light.svg#Objectivity-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Objectivity';
+    src: url('#{$font-directory}/Objectivity-Black.eot');
+    src: url('#{$font-directory}/Objectivity-Black.eot?#iefix') format('embedded-opentype'),
+        url('#{$font-directory}/Objectivity-Black.woff2') format('woff2'),
+        url('#{$font-directory}/Objectivity-Black.woff') format('woff'),
+        url('#{$font-directory}/Objectivity-Black.ttf') format('truetype'),
+        url('#{$font-directory}/Objectivity-Black.svg#Objectivity-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Objectivity';
+    src: url('#{$font-directory}/Objectivity-MediumSlanted.eot');
+    src: url('#{$font-directory}/Objectivity-MediumSlanted.eot?#iefix') format('embedded-opentype'),
+        url('#{$font-directory}/Objectivity-MediumSlanted.woff2') format('woff2'),
+        url('#{$font-directory}/Objectivity-MediumSlanted.woff') format('woff'),
+        url('#{$font-directory}/Objectivity-MediumSlanted.ttf') format('truetype'),
+        url('#{$font-directory}/Objectivity-MediumSlanted.svg#Objectivity-MediumSlanted') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Objectivity';
+    src: url('#{$font-directory}/Objectivity-Thin.eot');
+    src: url('#{$font-directory}/Objectivity-Thin.eot?#iefix') format('embedded-opentype'),
+        url('#{$font-directory}/Objectivity-Thin.woff2') format('woff2'),
+        url('#{$font-directory}/Objectivity-Thin.woff') format('woff'),
+        url('#{$font-directory}/Objectivity-Thin.ttf') format('truetype'),
+        url('#{$font-directory}/Objectivity-Thin.svg#Objectivity-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Objectivity';
+    src: url('#{$font-directory}/Objectivity-ExtraBold.eot');
+    src: url('#{$font-directory}/Objectivity-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('#{$font-directory}/Objectivity-ExtraBold.woff2') format('woff2'),
+        url('#{$font-directory}/Objectivity-ExtraBold.woff') format('woff'),
+        url('#{$font-directory}/Objectivity-ExtraBold.ttf') format('truetype'),
+        url('#{$font-directory}/Objectivity-ExtraBold.svg#Objectivity-ExtraBold') format('svg');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Objectivity';
+    src: url('#{$font-directory}/Objectivity-SuperSlanted.eot');
+    src: url('#{$font-directory}/Objectivity-SuperSlanted.eot?#iefix') format('embedded-opentype'),
+        url('#{$font-directory}/Objectivity-SuperSlanted.woff2') format('woff2'),
+        url('#{$font-directory}/Objectivity-SuperSlanted.woff') format('woff'),
+        url('#{$font-directory}/Objectivity-SuperSlanted.ttf') format('truetype'),
+        url('#{$font-directory}/Objectivity-SuperSlanted.svg#Objectivity-SuperSlanted') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Objectivity';
+    src: url('#{$font-directory}/Objectivity-Super.eot');
+    src: url('#{$font-directory}/Objectivity-Super.eot?#iefix') format('embedded-opentype'),
+        url('#{$font-directory}/Objectivity-Super.woff2') format('woff2'),
+        url('#{$font-directory}/Objectivity-Super.woff') format('woff'),
+        url('#{$font-directory}/Objectivity-Super.ttf') format('truetype'),
+        url('#{$font-directory}/Objectivity-Super.svg#Objectivity-Super') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Objectivity';
+    src: url('#{$font-directory}/Objectivity-ThinSlanted.eot');
+    src: url('#{$font-directory}/Objectivity-ThinSlanted.eot?#iefix') format('embedded-opentype'),
+        url('#{$font-directory}/Objectivity-ThinSlanted.woff2') format('woff2'),
+        url('#{$font-directory}/Objectivity-ThinSlanted.woff') format('woff'),
+        url('#{$font-directory}/Objectivity-ThinSlanted.ttf') format('truetype'),
+        url('#{$font-directory}/Objectivity-ThinSlanted.svg#Objectivity-ThinSlanted') format('svg');
+    font-weight: 100;
+    font-style: normal;
+}
+

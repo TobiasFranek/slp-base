@@ -19,6 +19,10 @@
   },
   "homepage": "https://github.com/TobiasFranek/slp-base#readme",
   "dependencies": {
+    "bootstrap": "^4.4.1",
     "parcel": "^1.12.4"
+  },
+  "devDependencies": {
+    "sass": "^1.24.3"
   }
 }
