@@ -31,3 +31,11 @@ body {
 	font-weight: 300;
 	font-size: rem(16);
 }
+
+.a {
+	color: $primary;
+	transition: all 0.4s ease;
+	&:hover {
+		color: $secondary;
+	}
+}

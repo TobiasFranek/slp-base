@@ -1,0 +1,34 @@
+.header {
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	box-shadow: $box-shadow-2;
+	padding: 0 25px;
+	background: #fff;
+	&--black {
+		background: #000;
+		color: #fff; 
+	}
+	&__logo {
+		width: 100%;
+		svg {
+			max-height: 22px;
+		}
+	}
+	&__back, &__user {
+		color: $font-color;
+		&:hover {
+			color: $font-color;
+		}
+		&--white {
+			color: #fff;
+			&:hover {
+				color: #fff;
+			}
+		}
+	}
+	&__user {
+		font-size: em(26);
+	}
+}
