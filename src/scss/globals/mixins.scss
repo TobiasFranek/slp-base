@@ -1,1 +1,8 @@
 @import '../../../node_modules/bootstrap/scss/_mixins';
+
+@mixin max-min-height-width($size) {
+	min-width: $size;
+	max-width: $size;
+	min-height: $size;
+	max-height: $size;
+}

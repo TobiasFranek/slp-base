@@ -39,3 +39,8 @@ body {
 		color: $secondary;
 	}
 }
+
+.flex-container {
+	display: flex;
+	overflow: auto;
+}

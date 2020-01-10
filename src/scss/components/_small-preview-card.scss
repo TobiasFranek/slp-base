@@ -1,0 +1,57 @@
+.preview-card-small {
+	@include max-min-height-width(200px);
+	margin-right: 20px;
+	background: url('../img/01.jpg');
+	background-position: center;
+	background-size: cover;
+	border-radius: $default-radius;
+	position: relative;
+	@include media-breakpoint-down(sm) {
+		@include max-min-height-width(150px);
+    }
+	&:after {
+		content: '';
+		position: absolute;
+		height: 100%;
+		width: 100%;
+		background: rgba(0, 0, 0, 0.5);
+		top: 0;
+		left: 0;
+		border-radius: $default-radius;
+	}
+	&__content {
+		height: 100%;
+		padding: 20px;
+		position: relative;
+		z-index: 2;
+		color: #fff;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		&__title {
+			font-family: $objectivity;
+			font-size: em(20);
+			@include media-breakpoint-down(sm) {
+				font-size: em(18)
+			}
+		}
+		&__timer {
+			font-size: em(18);
+			@include media-breakpoint-down(sm) {
+				font-size: em(16);
+			}
+			&--live {
+				display: flex;
+				align-items: center;
+				&:before {
+					content: '';
+					width: 8px;
+					height: 8px;
+					border-radius: 100%;
+					margin-right: 5px;
+					background: $red;
+				}
+			}
+		}
+	}
+}
