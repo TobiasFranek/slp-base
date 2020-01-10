@@ -1,0 +1,77 @@
+@mixin onfocus-label {
+	font-size: em(12);
+	bottom: em(35);
+	color: $font-color;
+}
+
+@mixin onfocus-input {
+	outline: none;
+	border-bottom: 4px solid $primary;
+}
+
+.input-group {
+	position: relative;
+	margin-bottom: em(20);
+	&__input {
+		border: 1px solid $font-color;
+		padding: em(8) em(10);
+		width: 100%;
+		&:focus {
+			outline: none;
+		}
+		&:read-only {
+			color: $grey-2;
+		}
+		&--primary {
+			border: none;
+			border-bottom: 1px solid $font-color;
+			transition: all 0.4s ease;
+			margin-top: em(25);
+			&:focus {
+				@include onfocus-input();
+				& + .input-group__label {
+					@include onfocus-label();
+				}
+			}
+			&--focus {
+				@include onfocus-input();
+			}
+			&--error {
+				border-color: $error;
+			}
+		}
+		&--secondary {
+			border: none;
+			box-shadow: $box-shadow-1;
+			border-radius: 14px;
+			padding: em(12) em(18);
+		}
+		
+	}
+	&__error {
+		color: $error;
+		font-weight: 700;
+	}
+	&__label {
+		display: block;
+		&--primary {
+			position: absolute;
+			left: 0;
+			color: $grey-2;
+			font-size: em(18);
+			bottom: 0;
+			margin-bottom: 3px;
+			transition: all 0.4s ease;
+			&--focus {
+				@include onfocus-label();
+			}
+		}
+		&--secondary {
+			font-weight: 700;
+			margin-bottom: em(15);
+			&--error {
+				color: $error;
+			}
+		}
+	}
+}
