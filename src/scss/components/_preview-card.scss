@@ -21,6 +21,10 @@ $gap: 20px;
 			flex-basis: calc(50% - #{10px*2});
 			margin: 10px;
 		}
+		@include media-breakpoint-down(xs) {
+			flex-basis: calc(100%);
+			margin: 10px auto;
+		}
 		&:before{
 			content: '';
 			float: left;
@@ -42,6 +46,7 @@ $gap: 20px;
 		justify-content: flex-end;
 		&__item {
 			color: #fff;
+			font-size: em(20);
 		}
 	}
 
