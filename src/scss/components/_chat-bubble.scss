@@ -1,0 +1,25 @@
+.chat-bubble {
+	box-shadow: $box-shadow-1;
+	display: inline-block;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	padding: 15px 20px;
+	&--other {
+		color: #fff;
+		background: $primary;
+		border-bottom-right-radius: 20px;
+	}
+	&--self {
+		background: $primary-light;
+		border-bottom-left-radius: 20px;
+	}	
+
+	&__user-name {
+		font-family: $objectivity;
+		margin: 0;
+	}
+	&__text {
+		margin: 0;
+		font-weight: 300;
+	}
+}
