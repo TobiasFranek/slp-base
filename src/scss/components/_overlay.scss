@@ -29,5 +29,15 @@
 		@include media-breakpoint-down(xs) {
 			max-width: 90%;
 		}
+		&--bottom {
+			position: absolute;
+			bottom: 0;
+			min-height: 70%;
+			border-bottom-left-radius: 0px;
+			border-bottom-right-radius: 0px;
+			@include media-breakpoint-down(xs) {
+				max-width: 100%;
+			}
+		}
 	}
 }
