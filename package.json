@@ -1,6 +1,6 @@
 {
   "name": "slp-base",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "HTML CSS Base Components",
   "main": "index.js",
   "scripts": {
