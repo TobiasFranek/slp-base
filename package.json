@@ -1,6 +1,6 @@
 {
   "name": "slp-base",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "HTML CSS Base Components",
   "main": "index.js",
   "scripts": {
@@ -19,12 +19,12 @@
   },
   "homepage": "https://github.com/TobiasFranek/slp-base#readme",
   "dependencies": {
-    "bootstrap": "^4.4.1",
-    "parcel": "^1.12.4",
-    "parcel-plugin-inject-svg": "^1.0.0"
+    "bootstrap": "^4.4.1"
   },
   "devDependencies": {
     "posthtml-svg-inline": "^1.0.0",
-    "sass": "^1.24.3"
+	"sass": "^1.24.3",
+	"parcel": "^1.12.4",
+    "parcel-plugin-inject-svg": "^1.0.0"
   }
 }
