@@ -6,7 +6,9 @@ $gap: 20px;
 	background-size: cover;
 	border-radius: $default-radius;
 	position: relative;
-	
+	&:hover {
+		text-decoration: none;
+	}
 	&--small {
 		@include max-min-height-width(200px);
 		@include media-breakpoint-down(sm) {
