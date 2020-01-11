@@ -4,9 +4,9 @@
   "description": "HTML CSS Base Components",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./node_modules/parcel/bin/cli.js ./src/index.html --out-dir ./dist --open",
-    "build": "node ./node_modules/parcel/bin/cli.js build ./src/index.html --out-dir ./dist"
+	"test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node ./node_modules/parcel/bin/cli.js build ./src/index.js --out-dir ./dist",
+    "prepare": "node ./node_modules/parcel/bin/cli.js build ./src/index.js --out-dir ./dist"
   },
   "repository": {
     "type": "git",
