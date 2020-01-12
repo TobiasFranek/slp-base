@@ -1,19 +1,13 @@
 /** VARIABLES **/
 @import 'globals/variables';
 
-/** FONTS **/
-@import 'globals/fonts';
-
-/** BOOTSTRAP **/
-@import '../../node_modules/bootstrap/scss/bootstrap-reboot.scss';
-@import '../../node_modules/bootstrap/scss/bootstrap-grid.scss';
 
 /** GLOBALS **/
-@import 'globals/globals.scss';
+@import 'globals/globals';
 
 /** COMPONENTS **/
 @import 'components/button';
-@import 'components/icon';
+@import 'components/icon'; 
 @import 'components/textfield';
 @import 'components/header';
 @import 'components/nav';

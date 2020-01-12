@@ -13,7 +13,7 @@
 	position: relative;
 	margin-bottom: em(20);
 	&__input {
-		border: 1px solid $font-color;
+		border: 1px solid $light-grey;
 		padding: em(8) em(10);
 		width: 100%;
 		&:focus {
@@ -25,7 +25,7 @@
 		&--primary {
 			border: none;
 			padding: 0;
-			border-bottom: 1px solid $font-color;
+			border-bottom: 1px solid $light-grey;
 			transition: all 0.4s ease;
 			margin-top: em(25);
 			&:focus {
