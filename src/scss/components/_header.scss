@@ -11,9 +11,14 @@
 		color: #fff; 
 	}
 	&__logo {
-		width: 100%;
+		display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
 		svg {
 			max-height: 22px;
+      width: 57px;
 		}
 	}
 	&__back, &__user {
